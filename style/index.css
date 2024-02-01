@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   padding: 15px;
   justify-content: center;
+  margin: 20px;
 }
 
 .card {
@@ -33,9 +34,9 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.card--diferent-sizes{
-   justify-content: center;
-   align-items: center;
+.card--diferent-sizes {
+  justify-content: center;
+  align-items: center;
 }
 .box {
   background-color: rgb(159, 123, 144);
@@ -51,16 +52,56 @@
 .box--right {
   align-self: flex-end;
 }
-.box--big{
- height: 80px;
+.box--big {
+  height: 80px;
+}
+.box--small {
+  align-items: baseline;
+  width: 50px;
+  height: 40px;
+}
+.box--big1 {
+  width: 80px;
+}
+.container-circle {
+  height: 100vh;
+  width: 90%;
+  background-color: rgba(88, 138, 138, 0.926);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin: 10px;
+  align-content: center;
+ 
+}
+.card-circle {
+  width: 273px;
+  height: 220px;
+  background-color: rgba(255, 251, 246, 0.959);
+  border-radius: 4px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.circle-start{
+    align-content: start;
+  
 
 }
-.box--small{
-    align-items: baseline;
-    width: 50px;
-    height: 40px;
-}
-.box--big1{
-    width: 80px;
+.circle-end{
+  align-content: end;
+  justify-content: flex-end;
+  flex-wrap: wrap-reverse;
 
+}
+.circle {
+  background-color: rgb(159, 123, 144);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 10px;
+}
+.box-circle {
+  align-items: flex-start;
 }
