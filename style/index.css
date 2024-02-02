@@ -66,33 +66,47 @@
 .container-circle {
   height: 100vh;
   width: 90%;
-  background-color: rgba(88, 138, 138, 0.926);
+  background-color: rgba(223, 221, 220, 0.926);
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
   margin: 10px;
   align-content: center;
- 
 }
 .card-circle {
   width: 273px;
   height: 220px;
-  background-color: rgba(255, 251, 246, 0.959);
+  background-color: rgba(183, 239, 228, 0.959);
   border-radius: 4px;
   margin: 10px;
   display: flex;
+ 
+}
+.circle-start {
+  align-content: start;
   flex-wrap: wrap;
-  
 }
-.circle-start{
-    align-content: start;
-  
-
-}
-.circle-end{
+.circle-end {
   align-content: end;
   justify-content: flex-end;
   flex-wrap: wrap-reverse;
+}
+.circle-between {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.circle-align {
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.circle-center {
+ flex-wrap: wrap;
+  justify-content:center;
+  align-content: center;
+
+ 
 
 }
 .circle {
