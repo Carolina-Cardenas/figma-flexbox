@@ -1,19 +1,28 @@
 .container {
-  height: 100vh;
-  background-color: rgba(88, 138, 138, 0.926);
+  height: 700px;
+  width: 1152px;
   display: flex;
   flex-wrap: wrap;
-  padding: 15px;
+  padding: 20px;
   justify-content: center;
-  margin: 20px;
+  margin: auto;
+  align-content: center;
 }
-
+.container--squares {
+  background-color: rgba(88, 138, 138, 0.926);
+  gap: 15px;
+}
+.container--circles {
+  background-color: rgba(223, 221, 220, 0.926);
+  margin-top: 20px;
+  align-content: center;
+}
 .card {
-  width: 45%;
+  width: 468px;
+  height: 160px;
   background-color: rgba(255, 251, 246, 0.959);
   border-radius: 4px;
-  padding: 5px;
-  margin: 10px;
+  padding: 20px;
   display: flex;
 }
 .card--end {
@@ -23,7 +32,7 @@
   align-items: center;
   justify-content: center;
 }
-.card--right {
+.card--flex-end {
   align-items: center;
   justify-content: flex-end;
 }
@@ -45,10 +54,6 @@
   margin: 10px;
   border-radius: 4px;
 }
-
-.box2 {
-  flex-direction: row-reverse;
-}
 .box--right {
   align-self: flex-end;
 }
@@ -60,19 +65,10 @@
   width: 50px;
   height: 40px;
 }
-.box--big1 {
+.box--wide {
   width: 80px;
 }
-.container-circle {
-  height: 100vh;
-  width: 90%;
-  background-color: rgba(223, 221, 220, 0.926);
-  display: flex;
-  flex-wrap: wrap;
-  padding: 15px;
-  margin: 10px;
-  align-content: center;
-}
+
 .card-circle {
   width: 273px;
   height: 220px;
@@ -80,34 +76,31 @@
   border-radius: 4px;
   margin: 10px;
   display: flex;
- 
 }
-.circle-start {
+.card-circle--start {
   align-content: start;
   flex-wrap: wrap;
 }
-.circle-end {
+
+.card-circle--end {
   align-content: end;
   justify-content: flex-end;
   flex-wrap: wrap-reverse;
 }
-.circle-between {
+.card-circle--between {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
 }
-.circle-align {
+.card-circle--align {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.circle-center {
- flex-wrap: wrap;
-  justify-content:center;
+.card-circle--center {
+  flex-wrap: wrap;
+  justify-content: center;
   align-content: center;
-
- 
-
 }
 .circle {
   background-color: rgb(159, 123, 144);
@@ -116,6 +109,11 @@
   border-radius: 100%;
   margin: 10px;
 }
-.box-circle {
-  align-items: flex-start;
+
+.card-circle--color{
+  background-color: rgb(242, 235, 240);
 }
+.card-circle--hidden{
+  visibility: hidden;
+}
+
